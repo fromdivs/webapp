@@ -10,7 +10,7 @@
     <body>
     <style>
     body {
-    background-image: url('3657535.jpg');
+    background-image: url('Images/3657535.jpg');
     background-repeat: no-repeat;
     }
     </style>

@@ -13,6 +13,12 @@
         <script src="store.js" async></script>
     </head>
     <body>
+    <style>
+    body {
+    background-image: url('Images/b2.jpg');
+    background-repeat: no-repeat;
+    }
+    </style>
         <header class="main-header">
             <nav class="main-nav nav">
                 <ul>
