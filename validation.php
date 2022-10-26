@@ -2,7 +2,7 @@
 $message="";
 session_start();
 
-$con=mysqli_connect('<add_your_cluster_ip','db_user','password','webapp');
+$con=mysqli_connect('10.100.47.23','db_user','password','webapp');
 // mysqli_select_db($con, 'webapp');
 
 // $name=$_POST['username'];
