@@ -2,7 +2,7 @@
 #$message="";
 session_start();
 
-$con=mysqli_connect('<add_your_cluster_ip','db_user','password','webapp');
+$con=mysqli_connect('10.100.47.23','db_user','password','webapp');
 
 $username = stripcslashes($_REQUEST['username']);
 $username = mysqli_escape_string($con, $username);
